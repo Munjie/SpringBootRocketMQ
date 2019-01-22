@@ -1,0 +1,7 @@
+2019-01-22 15:30:59,167 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-22 17:01:14,884 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 182164 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-22 17:01:14,886 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-22 17:01:14,887 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2019-01-22 17:08:10,408 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 160824 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-22 17:08:10,409 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-22 17:08:10,410 INFO (SpringApplication.java:663)- The following profiles are active: dev

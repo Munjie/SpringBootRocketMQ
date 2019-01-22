@@ -1,7 +1,9 @@
 package tk.mybatis.springboot.exception;
 
+/**
+ * @Author: 母哥 @Date: 2019-01-19 19:56 @Version 1.0
+ */
 public class ErrorPageException extends RuntimeException {
-
 
     private static final long serialVersionUID = 1L;
     private String code;
@@ -32,5 +34,5 @@ public class ErrorPageException extends RuntimeException {
 
     public void setMsg(String msg) {
         this.msg = msg;
-    }
+  }
 }

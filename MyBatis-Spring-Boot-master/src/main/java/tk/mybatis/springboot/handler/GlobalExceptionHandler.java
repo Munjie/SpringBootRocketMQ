@@ -13,20 +13,23 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @Author: 母哥 @Date: 2019-01-22 16:56 @Version 1.0
+ */
 @ControllerAdvice
 public class GlobalExceptionHandler {
 
-    protected static  final  Logger logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
-
+    protected static final Logger logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
     /**
      * 拦截捕捉自定义异常 MyException.class
+     *
      * @param ex
      * @return
      */
     @ResponseBody
     @ExceptionHandler(value = MyException.class)
-    public Map myErrorHandler(MyException ex,HttpServletRequest request) {
+    public Map myErrorHandler(MyException ex, HttpServletRequest request) {
         Map map = new HashMap();
         map.put("code", ex.getCode());
         map.put("msg", ex.getMsg());
@@ -41,9 +44,7 @@ public class GlobalExceptionHandler {
         modelAndView.setViewName("error");
         modelAndView.addObject("code", ex.getCode());
         modelAndView.addObject("msg", ex.getMsg());
-        logger.error("返回页面错误异常："+ex.getCode());
+        logger.error("返回页面错误异常：" + ex.getCode());
         return modelAndView;
-    }
-
-
+  }
 }
