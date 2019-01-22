@@ -1,0 +1,5 @@
+2019-01-08 18:24:08,821 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from func 
+2019-01-08 18:24:08,839 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-08 18:24:08,851 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-08 18:24:08,851 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-08 18:24:08,853 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

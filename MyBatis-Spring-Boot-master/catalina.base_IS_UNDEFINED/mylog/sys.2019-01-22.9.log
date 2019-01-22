@@ -1,0 +1,14 @@
+2019-01-22 11:44:15,282 INFO (RoleController.java:37)- {
+	"userName" : "fdffert",
+	"userCname": "333"
+	
+}
+2019-01-22 11:44:18,172 INFO (RocketMQProducer.java:51)- messageId=C0A8126870C018B4AAC26EAA5A820000, status=SEND_OK
+2019-01-22 11:44:19,179 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from func 
+2019-01-22 11:44:19,417 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-22 11:44:19,602 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-22 11:44:19,603 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-22 11:44:19,611 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-22 11:45:30,114 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 178904 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-22 11:45:30,115 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-22 11:45:30,116 INFO (SpringApplication.java:663)- The following profiles are active: dev

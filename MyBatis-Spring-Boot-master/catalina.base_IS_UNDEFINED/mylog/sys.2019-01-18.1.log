@@ -1,0 +1,11 @@
+2019-01-18 10:34:32,106 INFO (MQProducerConf.java:55)- MQ发送地址为： 192.168.2.128:9876
+2019-01-18 10:34:44,980 INFO (MQProducerConf.java:80)- **MQ发送结果** SendResult [sendStatus=SEND_OK, msgId=C0A8126826E018B4AAC259D134B30000, offsetMsgId=C0A8028000002A9F00000000000000B2, messageQueue=MessageQueue [topic=UserInfo, brokerName=localhost.localdomain, queueId=2], queueOffset=0]
+2019-01-18 10:34:48,298 INFO (MQProducerConf.java:97)- **********MQ消息处理发送处理结束***************
+2019-01-18 10:34:48,438 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from func 
+2019-01-18 10:34:48,477 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-18 10:34:48,761 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-18 10:34:48,770 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-18 10:34:48,773 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-18 10:42:02,775 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 142920 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-18 10:42:02,778 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-18 10:42:02,779 INFO (SpringApplication.java:663)- The following profiles are active: dev

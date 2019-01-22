@@ -1,0 +1,10 @@
+2019-01-22 13:54:38,882 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from func 
+2019-01-22 13:54:39,567 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-22 13:54:39,877 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-22 13:54:39,878 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-22 13:54:39,915 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-22 14:23:51,313 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 181684 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-22 14:23:51,314 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-22 14:23:51,316 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2019-01-22 14:24:00,320 INFO (StartupInfoLogger.java:59)- Started Application in 10.47 seconds (JVM running for 15.27)
+2019-01-22 14:24:00,364 INFO (Application.java:30)- 服务启动完成!

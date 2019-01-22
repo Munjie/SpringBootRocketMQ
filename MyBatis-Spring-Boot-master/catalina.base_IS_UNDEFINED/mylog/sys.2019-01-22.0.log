@@ -1,0 +1,6 @@
+2019-01-22 10:01:52,707 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 176048 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-22 10:01:52,768 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-22 10:01:52,820 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2019-01-22 10:02:22,171 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 171180 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-22 10:02:22,173 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-22 10:02:22,174 INFO (SpringApplication.java:663)- The following profiles are active: dev

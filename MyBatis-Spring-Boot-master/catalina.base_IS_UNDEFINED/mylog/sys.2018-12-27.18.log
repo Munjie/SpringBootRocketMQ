@@ -1,0 +1,16 @@
+2018-12-27 17:25:25,450 INFO (RoleController.java:38)- 访问了controller
+2018-12-27 17:25:25,457 ERROR (GlobalExceptionHandler.java:49)- {msg=异常, code=666, url=http://localhost:9090/role/logtest}
+2018-12-27 17:31:16,779 INFO (RoleController.java:26)- {
+	"userName" : "fff",
+	"userCname": "333"
+	
+}
+2018-12-27 17:31:16,818 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from func 
+2018-12-27 17:31:16,871 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-27 17:31:17,035 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2018-12-27 17:31:17,036 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2018-12-27 17:31:17,039 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-27 17:53:36,306 ERROR (GlobalExceptionHandler.java:30)- {msg=Required request body is missing: public java.lang.String tk.mybatis.springboot.controller.RoleController.find(java.lang.String), code=100, url=http://localhost:9090/role/find}
+2018-12-27 17:54:46,678 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 197064 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-27 17:54:46,700 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-27 17:54:46,704 INFO (SpringApplication.java:663)- The following profiles are active: dev

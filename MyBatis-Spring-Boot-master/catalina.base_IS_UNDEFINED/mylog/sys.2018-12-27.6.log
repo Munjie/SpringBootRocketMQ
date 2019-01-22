@@ -1,0 +1,8 @@
+2018-12-27 12:03:39,058 INFO (RoleController.java:50)- 访问了controller
+2018-12-27 12:03:43,368 ERROR (GlobalExceptionHandler.java:107)- Capture Exception By GlobalExceptionHandler: Code: 12 Detail: No converter found for return value of type: class tk.mybatis.springboot.model.JsonResult
+2018-12-27 12:03:51,522 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 195376 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-27 12:03:51,523 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-27 12:03:51,525 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2018-12-27 12:03:57,503 INFO (StartupInfoLogger.java:59)- Started Application in 6.709 seconds (JVM running for 8.431)
+2018-12-27 12:03:57,506 INFO (Application.java:30)- 服务启动完成!
+2018-12-27 12:12:00,115 INFO (RoleController.java:50)- 访问了controller

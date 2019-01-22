@@ -1,0 +1,24 @@
+2019-01-22 14:35:19,201 INFO (StartupInfoLogger.java:59)- Started Application in 10.953 seconds (JVM running for 13.763)
+2019-01-22 14:35:19,207 INFO (Application.java:31)- 服务启动完成!
+2019-01-22 14:35:22,510 INFO (RocketMQConsumer.java:62)- RocketMQConsumer Started! group=CONSUMER-MQ-GROUP-ONE instance=6be10b08-61f3-450c-9b67-83e9b75dd550
+2019-01-22 14:35:22,919 INFO (RocketMQListener.java:22)- %s Receive New Messages: %s %n
+2019-01-22 14:35:22,920 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "gsfdfsf",
+	"userCname": "333"
+	
+}
+2019-01-22 14:37:08,118 INFO (RoleController.java:38)- {
+	"userName" : "gsfdfsf",
+	"userCname": "333"
+	
+}
+2019-01-22 14:37:09,139 INFO (RocketMQProducer.java:51)- messageId=C0A81268C98818B4AAC26F489A530000, status=SEND_OK
+2019-01-22 14:37:09,142 INFO (RocketMQListener.java:22)- %s Receive New Messages: %s %n
+2019-01-22 14:37:09,143 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "gsfdfsf",
+	"userCname": "333"
+	
+}
+2019-01-22 14:37:09,177 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from func 
+2019-01-22 14:37:09,192 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-22 14:37:09,266 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func

@@ -1,0 +1,9 @@
+2018-12-27 09:59:29,119 INFO (StartupInfoLogger.java:59)- Started Application in 7.452 seconds (JVM running for 8.859)
+2018-12-27 09:59:29,132 INFO (Application.java:33)- 服务启动完成!
+2018-12-27 10:19:12,273 INFO (RoleController.java:50)- 访问了controller
+2018-12-27 11:45:06,840 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 195616 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-27 11:45:06,841 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-27 11:45:06,843 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2018-12-27 11:45:12,515 INFO (StartupInfoLogger.java:59)- Started Application in 6.288 seconds (JVM running for 7.629)
+2018-12-27 11:45:12,517 INFO (Application.java:30)- 服务启动完成!
+2018-12-27 11:46:27,663 ERROR (GlobalExceptionHandler.java:107)- Capture Exception By GlobalExceptionHandler: Code: 9 Detail: Required Integer parameter 'role' is not present

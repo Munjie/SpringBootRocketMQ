@@ -1,0 +1,15 @@
+2019-01-22 10:03:36,603 INFO (MQProducerConf.java:97)- **********MQ消息处理发送处理结束***************
+2019-01-22 10:03:36,649 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from func 
+2019-01-22 10:03:36,666 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-22 10:03:37,076 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-22 10:03:37,076 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-22 10:03:37,079 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-22 10:07:13,636 INFO (RoleController.java:36)- {
+	"userName" : "fff",
+	"userCname": "333"
+	
+}
+2019-01-22 10:07:15,141 INFO (MQProducerConf.java:42)- **********MQ消息处理开始发送处理***************
+2019-01-22 10:07:16,862 INFO (MQProducerConf.java:54)- 对应的群组为： Producer
+2019-01-22 10:07:17,724 INFO (MQProducerConf.java:55)- MQ发送地址为： 192.168.2.128:9876
+2019-01-22 10:07:22,496 INFO (MQProducerConf.java:80)- **MQ发送结果** SendResult [sendStatus=SEND_OK, msgId=C0A812689CAC18B4AAC26E519B0D0001, offsetMsgId=C0A8028000002A9F0000000000000000, messageQueue=MessageQueue [topic=UserInfo, brokerName=localhost.localdomain, queueId=3], queueOffset=0]

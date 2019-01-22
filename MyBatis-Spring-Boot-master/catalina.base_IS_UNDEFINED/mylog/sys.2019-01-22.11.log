@@ -1,0 +1,33 @@
+2019-01-22 11:49:56,450 INFO (StartupInfoLogger.java:59)- Started Application in 9.322 seconds (JVM running for 11.291)
+2019-01-22 11:49:56,456 INFO (Application.java:30)- 服务启动完成!
+2019-01-22 11:50:00,676 INFO (RoleController.java:38)- {
+	"userName" : "fdffert",
+	"userCname": "333"
+	
+}
+2019-01-22 11:50:11,606 INFO (RocketMQConsumer.java:62)- RocketMQConsumer Started! group=CONSUMER-MQ-GROUP-ONE instance=f2830c53-a9e7-48fa-9508-d551c763ae5a
+2019-01-22 11:50:15,716 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "999",
+	"userCname": "333"
+	
+}
+2019-01-22 11:50:15,716 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "fdffert",
+	"userCname": "333"
+	
+}
+2019-01-22 11:50:15,716 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "fff",
+	"userCname": "333"
+	
+}
+2019-01-22 11:50:15,716 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "fdffert",
+	"userCname": "333"
+	
+}
+2019-01-22 11:50:15,716 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "fff",
+	"userCname": "333"
+	
+}

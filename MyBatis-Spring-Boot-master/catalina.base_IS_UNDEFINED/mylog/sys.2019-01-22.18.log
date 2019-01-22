@@ -1,0 +1,23 @@
+2019-01-22 15:29:04,356 INFO (RoleController.java:38)- {
+	"userName" : "gsfdfsf",
+	"userCname": "333"
+	
+}
+2019-01-22 15:29:05,496 INFO (RocketMQProducer.java:51)- messageId=C0A81268BF3818B4AAC26F78278B0000, status=SEND_OK
+2019-01-22 15:29:05,557 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from func 
+2019-01-22 15:29:05,572 INFO (RocketMQListener.java:22)- %s Receive New Messages: %s %n
+2019-01-22 15:29:05,583 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-22 15:29:05,573 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "gsfdfsf",
+	"userCname": "333"
+	
+}
+2019-01-22 15:29:05,820 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-22 15:29:05,821 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-22 15:29:05,823 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-22 15:30:09,771 INFO (RoleController.java:38)- {
+	"userName" : "99999999999999",
+	"userCname": "333"
+	
+}
+2019-01-22 15:30:10,294 INFO (RocketMQProducer.java:51)- messageId=C0A81268BF3818B4AAC26F7924AE0001, status=SEND_OK

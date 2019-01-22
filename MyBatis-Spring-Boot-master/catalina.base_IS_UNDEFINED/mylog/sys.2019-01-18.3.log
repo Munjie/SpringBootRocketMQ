@@ -1,0 +1,8 @@
+2019-01-18 10:43:48,924 INFO (MQConsumer.java:52)- 消费者GROUPConsumer
+2019-01-18 10:43:50,359 INFO (MQConsumer.java:53)- 拉取的地址为192.168.2.128:9876
+2019-01-18 10:44:14,104 INFO (MQConsumer.java:95)- **********MQ消息拉取结束***************
+2019-01-18 10:44:14,134 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from func 
+2019-01-18 10:44:14,150 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-18 10:44:14,211 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-18 10:44:14,211 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-18 10:44:14,213 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

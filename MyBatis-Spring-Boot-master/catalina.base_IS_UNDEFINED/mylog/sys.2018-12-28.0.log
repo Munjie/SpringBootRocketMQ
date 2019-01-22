@@ -1,0 +1,62 @@
+2018-12-28 11:56:43,359 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 209180 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-28 11:56:43,413 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-28 11:56:43,479 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2018-12-28 11:56:49,573 INFO (StartupInfoLogger.java:59)- Started Application in 7.247 seconds (JVM running for 9.479)
+2018-12-28 11:56:49,576 INFO (Application.java:30)- 服务启动完成!
+2018-12-28 11:57:03,307 INFO (StartupInfoLogger.java:50)- Starting TestMQ on DESKTOP-2PRE44Q with PID 208596 (started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-28 11:57:03,308 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-28 11:57:03,309 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2018-12-28 11:57:09,597 INFO (StartupInfoLogger.java:59)- Started TestMQ in 7.407 seconds (JVM running for 9.165)
+2018-12-28 11:57:09,640 INFO (Application.java:30)- 服务启动完成!
+2018-12-28 11:57:10,051 INFO (MQProducerConf.java:40)- **********MQ消息处理开始发送处理***************
+2018-12-28 11:57:10,169 INFO (MQProducerConf.java:52)- 对应的群组为： PushConsumer
+2018-12-28 11:57:10,169 INFO (MQProducerConf.java:53)- MQ发送地址为： 127.0.0.1:9876
+2018-12-28 11:57:11,344 INFO (MQProducerConf.java:94)- **********MQ消息处理发送处理结束***************
+2018-12-28 11:58:34,293 INFO (StartupInfoLogger.java:50)- Starting TestMQ on DESKTOP-2PRE44Q with PID 209064 (started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-28 11:58:34,293 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-28 11:58:34,295 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2018-12-28 11:58:40,825 INFO (StartupInfoLogger.java:59)- Started TestMQ in 7.317 seconds (JVM running for 8.946)
+2018-12-28 11:58:40,842 INFO (Application.java:30)- 服务启动完成!
+2018-12-28 11:58:41,043 INFO (MQProducerConf.java:40)- **********MQ消息处理开始发送处理***************
+2018-12-28 11:58:41,157 INFO (MQProducerConf.java:52)- 对应的群组为： PushConsumer
+2018-12-28 11:58:41,158 INFO (MQProducerConf.java:53)- MQ发送地址为： 127.0.0.1:9876
+2018-12-28 11:58:42,204 INFO (MQProducerConf.java:94)- **********MQ消息处理发送处理结束***************
+2018-12-28 12:05:47,503 INFO (StartupInfoLogger.java:50)- Starting TestMQ on DESKTOP-2PRE44Q with PID 212016 (started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-28 12:05:47,504 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-28 12:05:47,506 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2018-12-28 12:05:53,792 INFO (StartupInfoLogger.java:59)- Started TestMQ in 7.107 seconds (JVM running for 9.266)
+2018-12-28 12:05:53,846 INFO (Application.java:30)- 服务启动完成!
+2018-12-28 12:05:54,026 INFO (MQProducerConf.java:40)- **********MQ消息处理开始发送处理***************
+2018-12-28 12:06:04,657 INFO (MQProducerConf.java:52)- 对应的群组为： PushConsumer
+2018-12-28 12:06:05,617 INFO (MQProducerConf.java:53)- MQ发送地址为： 127.0.0.1:9876
+2018-12-28 14:10:06,590 INFO (MQProducerConf.java:94)- **********MQ消息处理发送处理结束***************
+2018-12-28 14:10:15,916 INFO (StartupInfoLogger.java:50)- Starting TestMQ on DESKTOP-2PRE44Q with PID 214556 (started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-28 14:10:15,918 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-28 14:10:15,925 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2018-12-28 14:10:23,083 INFO (StartupInfoLogger.java:59)- Started TestMQ in 8.33 seconds (JVM running for 10.846)
+2018-12-28 14:10:23,111 INFO (Application.java:30)- 服务启动完成!
+2018-12-28 14:10:23,396 INFO (MQProducerConf.java:40)- **********MQ消息处理开始发送处理***************
+2018-12-28 14:10:27,742 INFO (MQProducerConf.java:52)- 对应的群组为： PushConsumer
+2018-12-28 14:10:27,754 INFO (MQProducerConf.java:53)- MQ发送地址为： 127.0.0.1:9876
+2018-12-28 14:10:29,014 INFO (MQProducerConf.java:94)- **********MQ消息处理发送处理结束***************
+2018-12-28 14:10:58,730 INFO (StartupInfoLogger.java:50)- Starting TestMQ on DESKTOP-2PRE44Q with PID 214604 (started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-28 14:10:58,731 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-28 14:10:58,733 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2018-12-28 14:11:04,624 INFO (StartupInfoLogger.java:59)- Started TestMQ in 6.502 seconds (JVM running for 8.741)
+2018-12-28 14:11:04,681 INFO (Application.java:30)- 服务启动完成!
+2018-12-28 14:11:04,901 INFO (MQProducerConf.java:40)- **********MQ消息处理开始发送处理***************
+2018-12-28 14:11:10,445 INFO (MQProducerConf.java:52)- 对应的群组为： PushConsumer
+2018-12-28 14:11:11,069 INFO (MQProducerConf.java:53)- MQ发送地址为： 127.0.0.1:9876
+2018-12-28 14:11:32,912 INFO (MQProducerConf.java:94)- **********MQ消息处理发送处理结束***************
+2018-12-28 14:29:40,176 INFO (StartupInfoLogger.java:50)- Starting TestMQ on DESKTOP-2PRE44Q with PID 215112 (started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-28 14:29:40,178 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-28 14:29:40,180 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2018-12-28 14:29:45,884 INFO (StartupInfoLogger.java:59)- Started TestMQ in 6.47 seconds (JVM running for 8.114)
+2018-12-28 14:29:45,901 INFO (Application.java:30)- 服务启动完成!
+2018-12-28 14:29:46,052 INFO (MQProducerConf.java:40)- **********MQ消息处理开始发送处理***************
+2018-12-28 14:29:46,170 INFO (MQProducerConf.java:52)- 对应的群组为： PushConsumer
+2018-12-28 14:29:46,170 INFO (MQProducerConf.java:53)- MQ发送地址为： 127.0.0.1:9876
+2018-12-28 14:29:47,281 INFO (MQProducerConf.java:94)- **********MQ消息处理发送处理结束***************
+2018-12-28 14:30:15,946 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 214100 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-28 14:30:15,947 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-28 14:30:15,948 INFO (SpringApplication.java:663)- The following profiles are active: dev

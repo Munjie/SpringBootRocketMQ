@@ -1,0 +1,14 @@
+2019-01-22 15:30:10,298 INFO (RocketMQListener.java:22)- %s Receive New Messages: %s %n
+2019-01-22 15:30:10,301 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "99999999999999",
+	"userCname": "333"
+	
+}
+2019-01-22 15:30:10,315 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from func 
+2019-01-22 15:30:10,316 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-22 15:30:10,331 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-22 15:30:10,331 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-22 15:30:10,332 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-22 15:30:30,309 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 176908 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-22 15:30:30,312 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-22 15:30:30,314 INFO (SpringApplication.java:663)- The following profiles are active: dev

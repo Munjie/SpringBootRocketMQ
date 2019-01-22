@@ -1,0 +1,14 @@
+2018-12-27 15:03:48,722 INFO (StartupInfoLogger.java:59)- Started Application in 6.819 seconds (JVM running for 8.086)
+2018-12-27 15:03:48,730 INFO (Application.java:30)- 服务启动完成!
+2018-12-27 15:03:54,217 ERROR (GlobalExceptionHandler.java:38)- {msg=Required Integer parameter 'role' is not present, code=100}
+2018-12-27 16:22:05,429 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 193300 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-27 16:22:05,430 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-27 16:22:05,432 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2018-12-27 16:22:11,420 INFO (StartupInfoLogger.java:59)- Started Application in 6.44 seconds (JVM running for 7.66)
+2018-12-27 16:22:11,424 INFO (Application.java:30)- 服务启动完成!
+2018-12-27 16:23:30,050 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 187156 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-27 16:23:30,051 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-27 16:23:30,052 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2018-12-27 16:25:23,106 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 189452 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-27 16:25:23,107 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-27 16:25:23,109 INFO (SpringApplication.java:663)- The following profiles are active: dev

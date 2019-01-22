@@ -1,0 +1,20 @@
+2019-01-22 11:23:35,285 INFO (StartupInfoLogger.java:59)- Started Application in 9.308 seconds (JVM running for 12.613)
+2019-01-22 11:23:35,291 INFO (Application.java:30)- 服务启动完成!
+2019-01-22 11:23:47,873 INFO (RoleController.java:37)- {
+	"userName" : "fff",
+	"userCname": "333"
+	
+}
+2019-01-22 11:23:53,677 INFO (RocketMQProducer.java:51)- messageId=C0A81268A2D818B4AAC26E97AB7A0000, status=SEND_OK
+2019-01-22 11:23:59,287 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from func 
+2019-01-22 11:23:59,303 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-22 11:23:59,393 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-22 11:23:59,394 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-22 11:23:59,396 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-22 11:26:36,762 INFO (RoleController.java:37)- {
+	"userName" : "999",
+	"userCname": "333"
+	
+}
+2019-01-22 11:26:38,584 INFO (RocketMQProducer.java:51)- messageId=C0A81268A2D818B4AAC26E9A2FB20001, status=SEND_OK
+2019-01-22 11:26:38,597 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from func 

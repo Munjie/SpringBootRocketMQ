@@ -1,0 +1,12 @@
+2018-12-27 09:48:01,825 INFO (StartupInfoLogger.java:59)- Started Application in 6.329 seconds (JVM running for 7.671)
+2018-12-27 09:48:01,833 INFO (Application.java:33)- 服务启动完成!
+2018-12-27 09:48:11,114 INFO (RoleController.java:39)- 访问了controller
+2018-12-27 09:49:04,908 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 193816 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-27 09:49:04,909 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-27 09:49:04,912 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2018-12-27 09:49:10,630 INFO (StartupInfoLogger.java:59)- Started Application in 6.282 seconds (JVM running for 7.555)
+2018-12-27 09:49:10,634 INFO (Application.java:33)- 服务启动完成!
+2018-12-27 09:49:29,783 INFO (RoleController.java:39)- 访问了controller
+2018-12-27 09:51:07,546 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 188768 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-27 09:51:07,547 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-27 09:51:07,549 INFO (SpringApplication.java:663)- The following profiles are active: dev

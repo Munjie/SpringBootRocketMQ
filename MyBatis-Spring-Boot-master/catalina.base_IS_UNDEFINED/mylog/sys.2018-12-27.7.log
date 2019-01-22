@@ -1,0 +1,8 @@
+2018-12-27 12:12:06,242 ERROR (GlobalExceptionHandler.java:107)- Capture Exception By GlobalExceptionHandler: Code: 999 Detail: null
+2018-12-27 12:13:22,464 INFO (RoleController.java:50)- 访问了controller
+2018-12-27 12:13:22,465 ERROR (GlobalExceptionHandler.java:107)- Capture Exception By GlobalExceptionHandler: Code: 999 Detail: null
+2018-12-27 12:17:23,646 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 186880 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-27 12:17:23,647 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-27 12:17:23,649 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2018-12-27 12:17:29,573 INFO (StartupInfoLogger.java:59)- Started Application in 6.396 seconds (JVM running for 7.636)
+2018-12-27 12:17:29,576 INFO (Application.java:30)- 服务启动完成!

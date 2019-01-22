@@ -1,0 +1,11 @@
+2018-12-28 14:32:14,188 INFO (MQProducerConf.java:52)- 对应的群组为： PushConsumer
+2018-12-28 14:32:14,541 INFO (MQProducerConf.java:53)- MQ发送地址为： 127.0.0.1:9876
+2018-12-28 14:32:24,653 INFO (MQProducerConf.java:94)- **********MQ消息处理发送处理结束***************
+2018-12-28 14:32:27,184 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from func 
+2018-12-28 14:32:27,424 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-28 14:32:27,965 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2018-12-28 14:32:27,966 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2018-12-28 14:32:27,974 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-28 14:34:09,909 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 216156 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-28 14:34:09,910 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-28 14:34:09,912 INFO (SpringApplication.java:663)- The following profiles are active: dev

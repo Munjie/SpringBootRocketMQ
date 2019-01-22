@@ -1,0 +1,14 @@
+2019-01-22 10:11:34,063 INFO (MQConsumer.java:52)- 消费者GROUPConsumer
+2019-01-22 10:11:37,537 INFO (MQConsumer.java:53)- 拉取的地址为192.168.2.128:9876
+2019-01-22 10:51:56,944 INFO (MQConsumer.java:95)- **********MQ消息拉取结束***************
+2019-01-22 10:51:57,115 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from func 
+2019-01-22 10:51:57,150 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-22 10:51:57,189 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-22 10:51:57,190 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-22 10:51:57,194 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-22 11:18:21,231 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 136352 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-22 11:18:21,243 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-22 11:18:21,245 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2019-01-22 11:20:03,520 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 170800 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-22 11:20:03,521 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-22 11:20:03,539 INFO (SpringApplication.java:663)- The following profiles are active: dev

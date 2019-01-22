@@ -1,0 +1,16 @@
+2019-01-17 11:38:29,796 INFO (StartupInfoLogger.java:59)- Started Application in 7.913 seconds (JVM running for 10.66)
+2019-01-17 11:38:29,802 INFO (Application.java:30)- 服务启动完成!
+2019-01-17 11:54:55,134 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 133116 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-17 11:54:55,135 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-17 11:54:55,137 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2019-01-17 11:55:02,126 INFO (StartupInfoLogger.java:59)- Started Application in 7.822 seconds (JVM running for 10.835)
+2019-01-17 11:55:02,129 INFO (Application.java:30)- 服务启动完成!
+2019-01-17 11:55:13,212 INFO (RoleController.java:32)- {
+	"userName" : "fff",
+	"userCname": "333"
+	
+}
+2019-01-17 11:55:13,749 INFO (MQProducerConf.java:42)- **********MQ消息处理开始发送处理***************
+2019-01-17 11:59:36,337 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 132580 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-17 11:59:36,338 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-17 11:59:36,345 INFO (SpringApplication.java:663)- The following profiles are active: dev

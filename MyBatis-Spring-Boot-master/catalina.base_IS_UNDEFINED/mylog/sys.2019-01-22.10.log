@@ -1,0 +1,16 @@
+2019-01-22 11:45:37,617 INFO (StartupInfoLogger.java:59)- Started Application in 8.352 seconds (JVM running for 11.992)
+2019-01-22 11:45:37,627 INFO (Application.java:30)- 服务启动完成!
+2019-01-22 11:47:31,488 INFO (RoleController.java:37)- {
+	"userName" : "fdffert",
+	"userCname": "333"
+	
+}
+2019-01-22 11:47:33,266 INFO (RocketMQProducer.java:51)- messageId=C0A81268BAD818B4AAC26EAD547E0000, status=SEND_OK
+2019-01-22 11:47:33,309 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from func 
+2019-01-22 11:47:33,327 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-22 11:47:33,368 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-22 11:47:33,369 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-22 11:47:33,371 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-22 11:49:48,297 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 182148 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-22 11:49:48,298 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-22 11:49:48,299 INFO (SpringApplication.java:663)- The following profiles are active: dev

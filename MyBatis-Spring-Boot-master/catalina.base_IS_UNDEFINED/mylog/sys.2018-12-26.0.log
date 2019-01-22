@@ -1,0 +1,14 @@
+2018-12-26 18:07:47,109 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 188276 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-26 18:07:47,110 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-26 18:07:47,113 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2018-12-26 18:07:52,695 INFO (StartupInfoLogger.java:59)- Started Application in 6.541 seconds (JVM running for 7.763)
+2018-12-26 18:07:52,698 INFO (Application.java:33)- 服务启动完成!
+2018-12-26 18:08:15,019 INFO (RoleController.java:23)- reqData
+2018-12-26 18:08:15,040 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from func 
+2018-12-26 18:08:15,055 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-26 18:08:15,075 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2018-12-26 18:08:15,075 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2018-12-26 18:08:15,077 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 18:11:42,418 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 187348 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2018-12-26 18:11:42,419 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-12-26 18:11:42,421 INFO (SpringApplication.java:663)- The following profiles are active: dev

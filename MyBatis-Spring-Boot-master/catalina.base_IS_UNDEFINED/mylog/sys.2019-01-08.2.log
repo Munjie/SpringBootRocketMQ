@@ -1,0 +1,9 @@
+2019-01-08 15:00:38,414 INFO (MQProducerConf.java:97)- **********MQ消息处理发送处理结束***************
+2019-01-08 15:00:38,457 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from func 
+2019-01-08 15:00:38,473 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-08 15:00:38,878 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-08 15:00:38,878 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-08 15:00:38,880 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-08 15:08:31,082 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 134420 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-08 15:08:31,083 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-08 15:08:31,085 INFO (SpringApplication.java:663)- The following profiles are active: dev

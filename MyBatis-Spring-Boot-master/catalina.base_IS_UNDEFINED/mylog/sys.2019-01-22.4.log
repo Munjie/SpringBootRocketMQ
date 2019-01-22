@@ -1,0 +1,13 @@
+2019-01-22 10:10:59,950 INFO (StartupInfoLogger.java:59)- Started Application in 9.525 seconds (JVM running for 11.086)
+2019-01-22 10:10:59,960 INFO (Application.java:30)- 服务启动完成!
+2019-01-22 10:11:17,523 INFO (RoleController.java:36)- {
+	"userName" : "fff",
+	"userCname": "333"
+	
+}
+2019-01-22 10:11:18,138 INFO (MQProducerConf.java:42)- **********MQ消息处理开始发送处理***************
+2019-01-22 10:11:20,163 INFO (MQProducerConf.java:54)- 对应的群组为： Producer
+2019-01-22 10:11:20,470 INFO (MQProducerConf.java:55)- MQ发送地址为： 192.168.2.128:9876
+2019-01-22 10:11:25,289 INFO (MQProducerConf.java:80)- **MQ发送结果** SendResult [sendStatus=SEND_OK, msgId=C0A81268EE3C18B4AAC26E554ECD0000, offsetMsgId=C0A8028000002A9F00000000000000DB, messageQueue=MessageQueue [topic=UserInfo, brokerName=localhost.localdomain, queueId=1], queueOffset=0]
+2019-01-22 10:11:27,634 INFO (MQProducerConf.java:97)- **********MQ消息处理发送处理结束***************
+2019-01-22 10:11:29,444 INFO (MQConsumer.java:43)- 开始MQ消息拉取处理
