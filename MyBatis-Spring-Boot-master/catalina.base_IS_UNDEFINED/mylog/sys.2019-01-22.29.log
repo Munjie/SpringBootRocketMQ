@@ -1,0 +1,19 @@
+2019-01-22 18:02:46,849 INFO (StartupInfoLogger.java:59)- Started Application in 7.404 seconds (JVM running for 10.338)
+2019-01-22 18:02:46,871 INFO (Application.java:31)- 服务启动完成!
+2019-01-22 18:02:47,641 INFO (RocketMQConsumerCost.java:31)- 开始拉取MQ消息
+2019-01-22 18:02:49,828 INFO (RocketMQConsumer.java:61)- RocketMQConsumer Started! group=CONSUMER-MQ-GROUP-ONE instance=2744abb8-531b-476c-8011-83d19019de4b
+2019-01-22 18:02:58,379 INFO (RoleController.java:35)- {
+	"userName" : "23265656",
+	"userCname": "36565"
+	
+}
+2019-01-22 18:03:00,061 INFO (RocketMQProducer.java:51)- messageId=C0A81268EE2018B4AAC270050FE90000, status=SEND_OK
+2019-01-22 18:03:05,206 INFO (RocketMQListener.java:22)- %s Receive New Messages: %s %n
+2019-01-22 18:03:05,207 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "23265656",
+	"userCname": "36565"
+	
+}
+2019-01-22 18:04:35,331 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 192480 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-22 18:04:35,332 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-22 18:04:35,334 INFO (SpringApplication.java:663)- The following profiles are active: dev

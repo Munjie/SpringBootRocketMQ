@@ -1,6 +1,6 @@
 package tk.mybatis.springboot;
 
-//特别注意，下面的是 tk.MapperScan
+// 特别注意，下面的是 tk.MapperScan
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,7 +18,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 @Controller
 @EnableWebMvc
 @SpringBootApplication
-@MapperScan(basePackages = "tk.mybatis.springboot.mapper")
+@MapperScan(basePackages = "tk.mybatis.springboot.dao")
 public class Application extends WebMvcConfigurerAdapter implements CommandLineRunner {
     private Logger logger = LoggerFactory.getLogger(Application.class);
 

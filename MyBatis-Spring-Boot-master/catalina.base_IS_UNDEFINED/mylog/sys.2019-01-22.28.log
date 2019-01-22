@@ -1,0 +1,16 @@
+2019-01-22 17:46:41,113 INFO (RocketMQConsumer.java:61)- RocketMQConsumer Started! group=CONSUMER-MQ-GROUP-ONE instance=970da55b-513e-4b36-a7e9-0ffccb352108
+2019-01-22 17:46:52,168 INFO (RoleController.java:33)- {
+	"userName" : "23265656",
+	"userCname": "36565"
+	
+}
+2019-01-22 17:46:58,450 INFO (RocketMQProducer.java:51)- messageId=C0A81268AD7018B4AAC26FF663A60000, status=SEND_OK
+2019-01-22 17:46:59,766 INFO (RocketMQListener.java:22)- %s Receive New Messages: %s %n
+2019-01-22 17:47:02,713 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "23265656",
+	"userCname": "36565"
+	
+}
+2019-01-22 18:02:39,992 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 192032 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-22 18:02:39,993 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-22 18:02:39,995 INFO (SpringApplication.java:663)- The following profiles are active: dev

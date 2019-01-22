@@ -1,0 +1,10 @@
+2019-01-22 17:44:04,668 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-22 17:44:04,676 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-22 17:44:04,683 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-22 17:44:06,493 INFO (RoleController.java:38)- 查询到的信息：dsd
+2019-01-22 17:46:30,080 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 175472 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-22 17:46:30,081 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-22 17:46:30,083 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2019-01-22 17:46:38,307 INFO (StartupInfoLogger.java:59)- Started Application in 10.325 seconds (JVM running for 12.328)
+2019-01-22 17:46:38,310 INFO (Application.java:31)- 服务启动完成!
+2019-01-22 17:46:38,773 INFO (RocketMQConsumerCost.java:31)- 开始拉取MQ消息

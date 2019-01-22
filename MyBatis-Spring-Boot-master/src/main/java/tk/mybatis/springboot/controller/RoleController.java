@@ -8,9 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import tk.mybatis.springboot.exception.ErrorPageException;
-import tk.mybatis.springboot.mapper.RoleMapper;
-import tk.mybatis.springboot.model.Role;
 import tk.mybatis.springboot.mq.mqimpl.RocketMQProducerSend;
+import tk.mybatis.springboot.service.IRoleService;
 
 /**
  * @Author: 母哥 @Date: 2019-01-01 13:56 @Version 1.0
@@ -22,7 +21,7 @@ public class RoleController {
     protected static final Logger logger = LoggerFactory.getLogger(RoleController.class);
 
     @Autowired
-    private RoleMapper roleMapper;
+    private IRoleService roleService;
 
     @Autowired
     private RocketMQProducerSend rocketMQProducerSend;
@@ -32,11 +31,10 @@ public class RoleController {
 
         logger.info(reqData);
         rocketMQProducerSend.sendMsgToMQServer(reqData);
+        String s = roleService.syncData(reqData);
         //  mqConsumer.consumerCost();
-
-        Role one = roleMapper.findOne();
-        System.out.println(one.getFunc());
-        return "222";
+        String temp = null;
+        return s;
     }
 
     @RequestMapping("/log")

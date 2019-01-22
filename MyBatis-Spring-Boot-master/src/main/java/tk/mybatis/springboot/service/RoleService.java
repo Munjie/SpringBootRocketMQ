@@ -2,25 +2,21 @@ package tk.mybatis.springboot.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import org.springframework.beans.factory.annotation.Autowired;
-
-import tk.mybatis.springboot.mapper.RoleMapper;
+import tk.mybatis.springboot.dao.IRoleDao;
 import tk.mybatis.springboot.model.Role;
+
+import java.util.List;
 
 @Service
 public class RoleService {
 
-@Autowired
-private RoleMapper roleMapper;
+    @Autowired
+    private IRoleDao roleDao;
 
-    public  Role findOne(){
+    public List<Role> findOne() {
 
-        return roleMapper.findOne();
-    };
+        return roleDao.findOne();
+    }
 
-
-
-
-
+    ;
 }

@@ -2,10 +2,16 @@ package tk.mybatis.springboot.model;
 
 public class Role {
 
-    private  String func;
-    private  String funid;
+    private String func;
+    private String funId;
 
+    public String getFunId() {
+        return funId;
+    }
 
+    public void setFunId(String funId) {
+        this.funId = funId;
+    }
 
     public String getFunc() {
         return func;
@@ -13,13 +19,5 @@ public class Role {
 
     public void setFunc(String func) {
         this.func = func;
-    }
-
-    public String getFunid() {
-        return funid;
-    }
-
-    public void setFunid(String funid) {
-        this.funid = funid;
     }
 }
