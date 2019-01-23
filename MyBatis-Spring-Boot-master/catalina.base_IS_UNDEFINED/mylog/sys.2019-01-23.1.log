@@ -1,0 +1,15 @@
+2019-01-23 09:12:14,415 INFO (RocketMQProducer.java:51)- messageId=C0A81268FF9018B4AAC273457EF30000, status=SEND_OK
+2019-01-23 09:12:14,484 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
+2019-01-23 09:12:14,499 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-23 09:12:14,603 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-23 09:12:14,603 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-23 09:12:14,605 TRACE (BaseJdbcLogger.java:165)- <==        Row: 2, frfs
+2019-01-23 09:12:14,605 TRACE (BaseJdbcLogger.java:165)- <==        Row: 3, FDFS
+2019-01-23 09:12:14,606 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2019-01-23 09:12:14,618 INFO (RoleServiceImpl.java:45)- 返回json为：{"list":"[{\"Func\":\"dsd\",\"FuncId\":\"1\"}, {\"Func\":\"frfs\",\"FuncId\":\"2\"}, {\"Func\":\"FDFS\",\"FuncId\":\"3\"}]"}
+2019-01-23 09:12:14,656 INFO (RocketMQListener.java:22)- %s Receive New Messages: %s %n
+2019-01-23 09:12:14,656 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "23265656",
+	"userCname": "36565"
+	
+}

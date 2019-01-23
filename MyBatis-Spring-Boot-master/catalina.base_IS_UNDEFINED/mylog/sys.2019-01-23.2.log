@@ -1,0 +1,23 @@
+2019-01-23 09:17:54,178 INFO (RoleController.java:32)- {
+	"userName" : "23265656",
+	"userCname": "36565"
+	
+}
+2019-01-23 09:17:54,832 INFO (RocketMQProducer.java:51)- messageId=C0A81268FF9018B4AAC2734AB0B40001, status=SEND_OK
+2019-01-23 09:17:54,836 INFO (RocketMQListener.java:22)- %s Receive New Messages: %s %n
+2019-01-23 09:17:54,836 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "23265656",
+	"userCname": "36565"
+	
+}
+2019-01-23 09:17:54,849 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
+2019-01-23 09:17:54,850 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-23 09:17:54,868 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-23 09:17:54,868 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-23 09:17:54,869 TRACE (BaseJdbcLogger.java:165)- <==        Row: 2, frfs
+2019-01-23 09:17:54,869 TRACE (BaseJdbcLogger.java:165)- <==        Row: 3, FDFS
+2019-01-23 09:17:54,870 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2019-01-23 09:17:54,870 INFO (RoleServiceImpl.java:45)- 返回json为：{"list":"[{\"Func\":\"dsd\",\"FuncId\":\"1\"}, {\"Func\":\"frfs\",\"FuncId\":\"2\"}, {\"Func\":\"FDFS\",\"FuncId\":\"3\"}]"}
+2019-01-23 09:18:11,241 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 196132 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-23 09:18:11,242 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-23 09:18:11,284 INFO (SpringApplication.java:663)- The following profiles are active: dev

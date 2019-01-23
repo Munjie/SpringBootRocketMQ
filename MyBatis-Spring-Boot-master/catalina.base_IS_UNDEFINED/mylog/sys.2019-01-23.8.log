@@ -1,0 +1,9 @@
+2019-01-23 10:29:00,793 TRACE (BaseJdbcLogger.java:165)- <==        Row: 2, frfs
+2019-01-23 10:29:00,797 TRACE (BaseJdbcLogger.java:165)- <==        Row: 3, FDFS
+2019-01-23 10:29:00,797 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2019-01-23 10:29:00,803 INFO (RoleServiceImpl.java:51)- 返回json为：{"code":"0000","message":"success","list":[{"func":"dsd","funcId":"1"},{"func":"frfs","funcId":"2"},{"func":"FDFS","funcId":"3"}]}
+2019-01-23 10:30:22,881 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 197788 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-23 10:30:22,883 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-23 10:30:22,884 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2019-01-23 10:30:31,357 INFO (StartupInfoLogger.java:59)- Started Application in 9.9 seconds (JVM running for 11.733)
+2019-01-23 10:30:31,360 INFO (Application.java:31)- 服务启动完成!

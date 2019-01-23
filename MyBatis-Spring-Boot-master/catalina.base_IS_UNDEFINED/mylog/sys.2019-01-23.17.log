@@ -1,0 +1,20 @@
+2019-01-23 10:39:07,306 INFO (StartupInfoLogger.java:59)- Started Application in 9.5 seconds (JVM running for 11.733)
+2019-01-23 10:39:07,354 INFO (Application.java:31)- 服务启动完成!
+2019-01-23 10:39:07,641 INFO (RocketMQConsumerCost.java:31)- 开始拉取MQ消息
+2019-01-23 10:39:09,341 INFO (RocketMQConsumer.java:61)- RocketMQConsumer Started! group=CONSUMER-MQ-GROUP-ONE instance=a8983f88-d8ed-4465-9ebf-2c03b3b5b261
+2019-01-23 10:39:13,647 INFO (RoleController.java:32)- {
+	"userName" : "23265656",
+	"userCname": "36565"
+	
+}
+2019-01-23 10:39:14,814 INFO (RocketMQProducer.java:51)- messageId=C0A81268148018B4AAC2739527090000, status=SEND_OK
+2019-01-23 10:39:14,815 INFO (AESUtil.java:34)- start encrypt...
+2019-01-23 10:39:14,826 INFO (RocketMQListener.java:22)- %s Receive New Messages: %s %n
+2019-01-23 10:39:14,828 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "23265656",
+	"userCname": "36565"
+	
+}
+2019-01-23 10:39:15,081 INFO (AESUtil.java:89)- start buid secret key
+2019-01-23 10:39:15,092 INFO (AESUtil.java:100)- secretKey：[B@29a66f33
+2019-01-23 10:39:15,096 INFO (AESUtil.java:44)- encrypt complete, spend time:%s

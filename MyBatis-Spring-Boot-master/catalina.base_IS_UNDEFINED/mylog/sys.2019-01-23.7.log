@@ -1,0 +1,21 @@
+2019-01-23 10:28:53,489 INFO (RocketMQConsumer.java:61)- RocketMQConsumer Started! group=CONSUMER-MQ-GROUP-ONE instance=f42bcf5a-642d-436f-9cad-0c5a51ee13bf
+2019-01-23 10:28:58,993 INFO (RoleController.java:32)- {
+	"userName" : "23265656",
+	"userCname": "36565"
+	
+}
+2019-01-23 10:29:00,161 INFO (RocketMQProducer.java:51)- messageId=C0A81268D01018B4AAC2738BC62F0000, status=SEND_OK
+2019-01-23 10:29:00,163 INFO (AESUtil.java:32)- start encrypt...
+2019-01-23 10:29:00,239 INFO (RocketMQListener.java:22)- %s Receive New Messages: %s %n
+2019-01-23 10:29:00,240 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "23265656",
+	"userCname": "36565"
+	
+}
+2019-01-23 10:29:00,484 INFO (AESUtil.java:88)- start buid secret key
+2019-01-23 10:29:00,504 INFO (AESUtil.java:99)- secretKey：[B@58ef5c1f
+2019-01-23 10:29:00,512 INFO (RoleServiceImpl.java:32)- encrypt contente5KvBU4fHI3snhFmcfk89Sr6VYBFk5P63dDpCw1VhH0guW0B/tKvofD0KKsNo5GkJJnQGuBzDCcOtXxN57wlBQ==
+2019-01-23 10:29:00,546 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
+2019-01-23 10:29:00,562 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-23 10:29:00,791 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-23 10:29:00,792 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd

@@ -1,0 +1,13 @@
+2019-01-23 09:18:32,330 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2019-01-23 09:18:32,441 INFO (RoleServiceImpl.java:45)- 返回json为：{"list":[{"Func":"dsd","FuncId":"1"},{"Func":"frfs","FuncId":"2"},{"Func":"FDFS","FuncId":"3"}]}
+2019-01-23 09:18:32,450 INFO (RocketMQListener.java:22)- %s Receive New Messages: %s %n
+2019-01-23 09:18:32,452 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "23265656",
+	"userCname": "36565"
+	
+}
+2019-01-23 09:31:01,596 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 197008 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-23 09:31:01,597 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-23 09:31:01,662 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2019-01-23 09:31:11,412 INFO (StartupInfoLogger.java:59)- Started Application in 11.593 seconds (JVM running for 17.857)
+2019-01-23 09:31:11,415 INFO (Application.java:31)- 服务启动完成!

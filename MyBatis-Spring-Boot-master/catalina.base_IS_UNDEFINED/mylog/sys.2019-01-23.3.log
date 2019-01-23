@@ -1,0 +1,16 @@
+2019-01-23 09:18:21,230 INFO (StartupInfoLogger.java:59)- Started Application in 11.162 seconds (JVM running for 14.255)
+2019-01-23 09:18:21,257 INFO (Application.java:31)- 服务启动完成!
+2019-01-23 09:18:21,797 INFO (RocketMQConsumerCost.java:31)- 开始拉取MQ消息
+2019-01-23 09:18:24,627 INFO (RocketMQConsumer.java:61)- RocketMQConsumer Started! group=CONSUMER-MQ-GROUP-ONE instance=6e492d4f-ab59-4b0c-8cc4-a5040690cb5c
+2019-01-23 09:18:30,753 INFO (RoleController.java:32)- {
+	"userName" : "23265656",
+	"userCname": "36565"
+	
+}
+2019-01-23 09:18:32,222 INFO (RocketMQProducer.java:51)- messageId=C0A81268FE2418B4AAC2734B425B0000, status=SEND_OK
+2019-01-23 09:18:32,254 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
+2019-01-23 09:18:32,270 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-23 09:18:32,328 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-23 09:18:32,328 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-23 09:18:32,330 TRACE (BaseJdbcLogger.java:165)- <==        Row: 2, frfs
+2019-01-23 09:18:32,330 TRACE (BaseJdbcLogger.java:165)- <==        Row: 3, FDFS

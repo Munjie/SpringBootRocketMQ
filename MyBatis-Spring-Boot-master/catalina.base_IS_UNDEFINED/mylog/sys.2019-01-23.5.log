@@ -1,0 +1,18 @@
+2019-01-23 09:31:12,274 INFO (RocketMQConsumerCost.java:31)- 开始拉取MQ消息
+2019-01-23 09:31:15,035 INFO (RocketMQConsumer.java:61)- RocketMQConsumer Started! group=CONSUMER-MQ-GROUP-ONE instance=f3422847-aa39-403a-9aeb-9bdea28da33c
+2019-01-23 09:31:23,461 INFO (RoleController.java:32)- {
+	"userName" : "23265656",
+	"userCname": "36565"
+	
+}
+2019-01-23 09:31:24,595 INFO (RocketMQProducer.java:51)- messageId=C0A81268019018B4AAC273570BD40000, status=SEND_OK
+2019-01-23 09:31:24,662 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
+2019-01-23 09:31:24,678 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-23 09:31:24,853 INFO (RocketMQListener.java:22)- %s Receive New Messages: %s %n
+2019-01-23 09:31:24,853 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "23265656",
+	"userCname": "36565"
+	
+}
+2019-01-23 09:31:24,859 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-23 09:31:24,860 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
