@@ -1,0 +1,4 @@
+2019-01-23 18:23:09,739 TRACE (BaseJdbcLogger.java:165)- <==        Row: 2, frfs
+2019-01-23 18:23:09,742 TRACE (BaseJdbcLogger.java:165)- <==        Row: 3, FDFS
+2019-01-23 18:23:09,743 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2019-01-23 18:23:09,743 INFO (RoleServiceImpl.java:53)- 返回json为：{"code":"0000","message":"success","list":[{"func":"dsd","funcId":"1"},{"func":"frfs","funcId":"2"},{"func":"FDFS","funcId":"3"}]}

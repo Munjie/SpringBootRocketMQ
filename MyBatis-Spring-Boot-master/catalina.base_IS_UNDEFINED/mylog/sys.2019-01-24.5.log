@@ -1,0 +1,24 @@
+2019-01-24 09:38:40,405 INFO (RoleController.java:32)- {
+	"userName" : "025888",
+	"userCname": "63323222"
+	
+}
+2019-01-24 09:38:55,886 INFO (RocketMQProducer.java:51)- messageId=C0A8126846E018B4AAC278844AC30001, status=SEND_OK
+2019-01-24 09:38:55,887 INFO (AESUtil.java:32)- start encrypt...
+2019-01-24 09:38:55,888 INFO (AESUtil.java:88)- start buid secret key
+2019-01-24 09:38:55,888 INFO (AESUtil.java:100)- secretKey：[B@6db7e820
+2019-01-24 09:38:55,888 INFO (AESUtil.java:101)- build secret key completed, spend time:0
+2019-01-24 09:38:55,889 INFO (AESUtil.java:42)- encrypt completed, spend time:2
+2019-01-24 09:38:55,889 INFO (RoleServiceImpl.java:32)- encrypt contente5KvBU4fHI3snhFmcfk89ZbM95rEStrAKFhlzpvCzQQ4edit6x0saq3c6MuDCgSoCLyUZtPVMUBvmCTyRPCwhw==
+2019-01-24 09:38:55,890 INFO (AESUtil.java:60)- start decrypt...
+2019-01-24 09:38:55,890 INFO (AESUtil.java:88)- start buid secret key
+2019-01-24 09:38:55,890 INFO (AESUtil.java:100)- secretKey：[B@32d73313
+2019-01-24 09:38:55,891 INFO (AESUtil.java:101)- build secret key completed, spend time:1
+2019-01-24 09:38:55,891 INFO (AESUtil.java:71)- decrypt completed, spend time:1
+2019-01-24 09:38:55,891 INFO (RoleServiceImpl.java:34)- decrypt content{
+	"userName" : "025888",
+	"userCname": "63323222"
+	
+}
+2019-01-24 09:38:55,906 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
+2019-01-24 09:38:55,907 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 

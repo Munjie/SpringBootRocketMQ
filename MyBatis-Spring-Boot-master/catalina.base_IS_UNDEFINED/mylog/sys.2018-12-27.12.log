@@ -1,8 +1,0 @@
-2018-12-27 16:29:06,300 INFO (StartupInfoLogger.java:59)- Started Application in 6.768 seconds (JVM running for 8.015)
-2018-12-27 16:29:06,307 INFO (Application.java:30)- 服务启动完成!
-2018-12-27 16:30:08,839 ERROR (GlobalExceptionHandler.java:45)- {msg=Required Integer parameter 'role' is not present, code=9999}
-2018-12-27 16:31:52,858 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 191176 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
-2018-12-27 16:31:52,859 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
-2018-12-27 16:31:52,861 INFO (SpringApplication.java:663)- The following profiles are active: dev
-2018-12-27 16:31:58,614 INFO (StartupInfoLogger.java:59)- Started Application in 6.305 seconds (JVM running for 7.503)
-2018-12-27 16:31:58,617 INFO (Application.java:30)- 服务启动完成!

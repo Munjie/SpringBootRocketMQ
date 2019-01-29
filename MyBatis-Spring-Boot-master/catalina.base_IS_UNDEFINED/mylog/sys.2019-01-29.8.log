@@ -1,0 +1,12 @@
+2019-01-29 10:23:03,242 INFO (StartupInfoLogger.java:59)- Started Application in 12.273 seconds (JVM running for 14.188)
+2019-01-29 10:23:03,250 INFO (Application.java:30)- 服务启动完成!
+2019-01-29 10:23:03,873 INFO (RocketMQConsumerCost.java:33)- start pull message from  rocketMQ broker server
+2019-01-29 10:23:06,520 INFO (RocketMQConsumer.java:61)- RocketMQConsumer Started! group=PRO-CONSUMER-MQ-GROUP-ONE instance=b57aaa05-6854-484c-858d-ad5c6253dc0c
+2019-01-29 10:23:27,804 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
+2019-01-29 10:23:27,823 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-29 10:23:27,861 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-29 10:23:27,862 TRACE (BaseJdbcLogger.java:165)- <==        Row: 101, 删除
+2019-01-29 10:23:27,864 TRACE (BaseJdbcLogger.java:165)- <==        Row: 102, 查询
+2019-01-29 10:23:27,865 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-01-29 10:23:33,528 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
+2019-01-29 10:23:33,529 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 

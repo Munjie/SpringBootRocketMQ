@@ -1,0 +1,21 @@
+2019-01-25 09:38:18,609 ERROR (RocketMQProducer.java:53)- producer send message exception:org.apache.rocketmq.client.exception.MQClientException: No route info of this topic, MQ-MSG-TOPICS-TEST
+See http://rocketmq.apache.org/docs/faq/ for further details.
+2019-01-25 09:38:18,615 INFO (AESUtil.java:32)- start encrypt...
+2019-01-25 09:38:19,010 INFO (AESUtil.java:88)- start buid secret key
+2019-01-25 09:38:19,022 INFO (AESUtil.java:100)- secretKey：[B@7d6f4488
+2019-01-25 09:38:19,023 INFO (AESUtil.java:101)- build secret key completed, spend time:12
+2019-01-25 09:38:19,026 INFO (AESUtil.java:42)- encrypt completed, spend time:410
+2019-01-25 09:38:19,029 INFO (RoleServiceImpl.java:32)- encrypt contente5KvBU4fHI3snhFmcfk89ZbM95rEStrAKFhlzpvCzQQ4edit6x0saq3c6MuDCgSoCLyUZtPVMUBvmCTyRPCwhw==
+2019-01-25 09:38:19,045 INFO (AESUtil.java:60)- start decrypt...
+2019-01-25 09:38:19,045 INFO (AESUtil.java:88)- start buid secret key
+2019-01-25 09:38:19,046 INFO (AESUtil.java:100)- secretKey：[B@5df80deb
+2019-01-25 09:38:19,046 INFO (AESUtil.java:101)- build secret key completed, spend time:0
+2019-01-25 09:38:19,046 INFO (AESUtil.java:71)- decrypt completed, spend time:1
+2019-01-25 09:38:19,047 INFO (RoleServiceImpl.java:34)- decrypt content{
+	"userName" : "025888",
+	"userCname": "63323222"
+	
+}
+2019-01-25 09:38:19,099 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
+2019-01-25 09:38:19,114 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-25 09:38:19,463 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func

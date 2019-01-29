@@ -12,7 +12,9 @@ import tk.mybatis.springboot.mq.RocketMQListener;
 public class RocketMQConsumerCost {
 
   protected static final Logger logger = LoggerFactory.getLogger(RocketMQConsumerCost.class);
-  /** NameServer 生产者注册地址 */
+  /**
+   * NameServer 腾讯云服务器地址
+   */
   @Value("${apache.rocketmq.namesrvAddr}")
   private String mqNameServer;
 
@@ -28,7 +30,7 @@ public class RocketMQConsumerCost {
   @Scheduled(initialDelay = 1000, fixedDelay = Long.MAX_VALUE)
   public void consumerCost() {
 
-    logger.info("开始拉取MQ消息");
+    logger.info("start pull message from  rocketMQ broker server");
     RocketMQListener mqListener = new RocketMQListener();
 
     RocketMQConsumer mqConsumer =
@@ -38,7 +40,7 @@ public class RocketMQConsumerCost {
     try {
       Thread.sleep(1000 * 60L);
     } catch (InterruptedException e) {
-      e.printStackTrace();
+      logger.error("initialization mq consumer exception", e);
     }
   }
 }

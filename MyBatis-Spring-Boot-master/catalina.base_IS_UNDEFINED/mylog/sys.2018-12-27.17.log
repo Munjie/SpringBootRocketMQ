@@ -1,8 +1,0 @@
-2018-12-27 16:45:21,301 INFO (StartupInfoLogger.java:59)- Started Application in 5.867 seconds (JVM running for 6.987)
-2018-12-27 16:45:21,308 INFO (Application.java:30)- 服务启动完成!
-2018-12-27 17:23:47,055 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 203632 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
-2018-12-27 17:23:47,057 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
-2018-12-27 17:23:47,058 INFO (SpringApplication.java:663)- The following profiles are active: dev
-2018-12-27 17:23:53,104 INFO (StartupInfoLogger.java:59)- Started Application in 6.622 seconds (JVM running for 7.892)
-2018-12-27 17:23:53,107 INFO (Application.java:30)- 服务启动完成!
-2018-12-27 17:24:42,106 ERROR (GlobalExceptionHandler.java:30)- {msg=Required Integer parameter 'role' is not present, code=100, url=http://localhost:9090/role/logtest}

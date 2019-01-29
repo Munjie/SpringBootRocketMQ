@@ -1,0 +1,20 @@
+2019-01-23 18:15:15,990 TRACE (BaseJdbcLogger.java:165)- <==        Row: 2, frfs
+2019-01-23 18:15:15,996 TRACE (BaseJdbcLogger.java:165)- <==        Row: 3, FDFS
+2019-01-23 18:15:15,997 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2019-01-23 18:15:15,998 INFO (RoleServiceImpl.java:53)- 返回json为：{"code":"0000","message":"success","list":[{"func":"dsd","funcId":"1"},{"func":"frfs","funcId":"2"},{"func":"FDFS","funcId":"3"}]}
+2019-01-23 18:15:37,284 INFO (RoleController.java:32)- {
+	"userName" : "23265656",
+	"userCname": "36565"
+	
+}
+2019-01-23 18:15:40,798 ERROR (RocketMQProducer.java:53)- 生产者发送消息异常:org.apache.rocketmq.remoting.exception.RemotingTooMuchRequestException: sendDefaultImpl call timeout
+2019-01-23 18:15:40,799 INFO (AESUtil.java:32)- start encrypt...
+2019-01-23 18:15:40,799 INFO (AESUtil.java:88)- start buid secret key
+2019-01-23 18:15:40,800 INFO (AESUtil.java:100)- secretKey：[B@1f993141
+2019-01-23 18:15:40,801 INFO (AESUtil.java:101)- build secret key completed, spend time:1
+2019-01-23 18:15:40,801 INFO (AESUtil.java:42)- encrypt completed, spend time:2
+2019-01-23 18:15:40,801 INFO (RoleServiceImpl.java:32)- encrypt contente5KvBU4fHI3snhFmcfk89Sr6VYBFk5P63dDpCw1VhH0guW0B/tKvofD0KKsNo5GkJJnQGuBzDCcOtXxN57wlBQ==
+2019-01-23 18:15:40,802 INFO (AESUtil.java:60)- start decrypt...
+2019-01-23 18:15:40,802 INFO (AESUtil.java:88)- start buid secret key
+2019-01-23 18:15:40,802 INFO (AESUtil.java:100)- secretKey：[B@51608e4a
+2019-01-23 18:15:40,802 INFO (AESUtil.java:101)- build secret key completed, spend time:0

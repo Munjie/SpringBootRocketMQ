@@ -1,0 +1,26 @@
+2019-01-25 10:36:04,328 INFO (RoleController.java:32)- {
+	"userName" : "025888",
+	"userCname": "63323222"
+	
+}
+2019-01-25 10:36:21,489 ERROR (RocketMQProducer.java:53)- producer send message exception:org.apache.rocketmq.remoting.exception.RemotingTooMuchRequestException: sendDefaultImpl call timeout
+2019-01-25 10:41:24,897 INFO (AESUtil.java:32)- start encrypt...
+2019-01-25 10:41:24,903 INFO (AESUtil.java:88)- start buid secret key
+2019-01-25 10:41:24,905 INFO (AESUtil.java:100)- secretKey：[B@1584ec0c
+2019-01-25 10:41:24,909 INFO (AESUtil.java:101)- build secret key completed, spend time:4
+2019-01-25 10:41:24,910 INFO (AESUtil.java:42)- encrypt completed, spend time:10
+2019-01-25 10:41:24,910 INFO (RoleServiceImpl.java:32)- encrypt contente5KvBU4fHI3snhFmcfk89ZbM95rEStrAKFhlzpvCzQQ4edit6x0saq3c6MuDCgSoCLyUZtPVMUBvmCTyRPCwhw==
+2019-01-25 10:41:24,916 INFO (AESUtil.java:60)- start decrypt...
+2019-01-25 10:41:24,916 INFO (AESUtil.java:88)- start buid secret key
+2019-01-25 10:41:24,916 INFO (AESUtil.java:100)- secretKey：[B@4f6d008f
+2019-01-25 10:41:24,917 INFO (AESUtil.java:101)- build secret key completed, spend time:1
+2019-01-25 10:41:24,917 INFO (AESUtil.java:71)- decrypt completed, spend time:1
+2019-01-25 10:41:24,917 INFO (RoleServiceImpl.java:34)- decrypt content{
+	"userName" : "025888",
+	"userCname": "63323222"
+	
+}
+2019-01-25 10:41:24,943 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
+2019-01-25 10:41:24,944 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-25 10:41:24,977 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-25 10:41:24,978 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd

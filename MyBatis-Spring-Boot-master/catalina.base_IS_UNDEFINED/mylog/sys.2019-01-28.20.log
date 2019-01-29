@@ -1,0 +1,4 @@
+2019-01-28 18:31:42,453 INFO (StartupInfoLogger.java:59)- Started Application in 18.689 seconds (JVM running for 22.582)
+2019-01-28 18:31:42,462 INFO (Application.java:31)- 服务启动完成!
+2019-01-28 18:31:42,786 INFO (RocketMQConsumerCost.java:33)- start pull message from  rocketMQ broker server
+2019-01-28 18:31:45,797 INFO (RocketMQConsumer.java:61)- RocketMQConsumer Started! group=PRO-CONSUMER-MQ-GROUP-ONE instance=376b9f1b-08a0-43ef-bafc-16040f88cb85

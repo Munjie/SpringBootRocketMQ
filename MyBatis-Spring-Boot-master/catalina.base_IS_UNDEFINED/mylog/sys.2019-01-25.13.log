@@ -1,0 +1,20 @@
+2019-01-25 10:41:47,135 INFO (AESUtil.java:60)- start decrypt...
+2019-01-25 10:41:47,139 INFO (AESUtil.java:88)- start buid secret key
+2019-01-25 10:41:47,139 INFO (AESUtil.java:100)- secretKey：[B@39271b75
+2019-01-25 10:41:47,140 INFO (AESUtil.java:101)- build secret key completed, spend time:1
+2019-01-25 10:41:47,140 INFO (AESUtil.java:71)- decrypt completed, spend time:1
+2019-01-25 10:41:47,141 INFO (RoleServiceImpl.java:34)- decrypt content{
+	"userName" : "025888",
+	"userCname": "63323222"
+	
+}
+2019-01-25 10:41:47,704 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
+2019-01-25 10:41:47,705 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-25 10:41:47,747 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-25 12:03:01,698 INFO (RocketMQListener.java:22)- %s Receive New Messages: %s %n
+2019-01-25 10:41:51,969 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-25 12:03:01,763 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "025888",
+	"userCname": "63323222"
+	
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>主页</title>
+</head>
+<body>
+
+<table class="table">
+
+    <tbody>
+    <td th:each="userinfo:${userinfo}" th:text="${userinfo}"></td>
+    </tbody>
+</table>
+
+</body>
+</html>

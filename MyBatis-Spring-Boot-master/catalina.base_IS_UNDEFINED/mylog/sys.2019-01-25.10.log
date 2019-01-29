@@ -1,0 +1,20 @@
+2019-01-25 10:34:07,192 INFO (AESUtil.java:42)- encrypt completed, spend time:262
+2019-01-25 10:34:07,206 INFO (RoleServiceImpl.java:32)- encrypt contente5KvBU4fHI3snhFmcfk89ZbM95rEStrAKFhlzpvCzQQ4edit6x0saq3c6MuDCgSoCLyUZtPVMUBvmCTyRPCwhw==
+2019-01-25 10:34:07,207 INFO (AESUtil.java:60)- start decrypt...
+2019-01-25 10:34:07,207 INFO (AESUtil.java:88)- start buid secret key
+2019-01-25 10:34:07,208 INFO (AESUtil.java:100)- secretKey：[B@4e50f140
+2019-01-25 10:34:07,208 INFO (AESUtil.java:101)- build secret key completed, spend time:0
+2019-01-25 10:34:07,208 INFO (AESUtil.java:71)- decrypt completed, spend time:1
+2019-01-25 10:34:07,209 INFO (RoleServiceImpl.java:34)- decrypt content{
+	"userName" : "025888",
+	"userCname": "63323222"
+	
+}
+2019-01-25 10:34:07,246 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
+2019-01-25 10:34:07,262 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-25 10:34:07,776 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-25 10:34:07,777 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-25 10:34:07,778 TRACE (BaseJdbcLogger.java:165)- <==        Row: 2, frfs
+2019-01-25 10:34:07,779 TRACE (BaseJdbcLogger.java:165)- <==        Row: 3, FDFS
+2019-01-25 10:34:07,779 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2019-01-25 10:34:07,784 INFO (RoleServiceImpl.java:53)- 返回json为：{"code":"0000","message":"success","list":[{"func":"dsd","funcId":"1"},{"func":"frfs","funcId":"2"},{"func":"FDFS","funcId":"3"}]}

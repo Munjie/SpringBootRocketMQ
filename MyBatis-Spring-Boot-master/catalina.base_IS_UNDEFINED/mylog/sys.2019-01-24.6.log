@@ -1,0 +1,15 @@
+2019-01-24 09:38:55,916 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-24 09:38:55,920 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-24 09:38:55,920 TRACE (BaseJdbcLogger.java:165)- <==        Row: 2, frfs
+2019-01-24 09:38:55,921 TRACE (BaseJdbcLogger.java:165)- <==        Row: 3, FDFS
+2019-01-24 09:38:55,921 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2019-01-24 09:38:55,922 INFO (RoleServiceImpl.java:53)- 返回json为：{"code":"0000","message":"success","list":[{"func":"dsd","funcId":"1"},{"func":"frfs","funcId":"2"},{"func":"FDFS","funcId":"3"}]}
+2019-01-24 09:38:55,933 INFO (RocketMQListener.java:22)- %s Receive New Messages: %s %n
+2019-01-24 09:38:55,933 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "025888",
+	"userCname": "63323222"
+	
+}
+2019-01-24 09:39:59,800 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 212624 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-24 09:39:59,847 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-24 09:39:59,849 INFO (SpringApplication.java:663)- The following profiles are active: dev

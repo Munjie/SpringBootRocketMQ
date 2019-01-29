@@ -6,12 +6,13 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import tk.mybatis.springboot.mq.RocketMQProducer;
+
 @Component
 public class RocketMQProducerSend {
 
-    protected  static  final Logger logger = LoggerFactory.getLogger(RocketMQProducerSend.class);
+    protected static final Logger logger = LoggerFactory.getLogger(RocketMQProducerSend.class);
     /**
-     * NameServer  生产者注册地址
+     * NameServer 腾讯云服务器地址地址
      */
     @Value("${apache.rocketmq.namesrvAddr}")
     private String mqNameServer;
@@ -34,39 +35,24 @@ public class RocketMQProducerSend {
     @Value("${apache.rocketmq.tag}")
     private String tag;
 
-
     /**
      * 主键key
      */
     @Value("${apache.rocketmq.key}")
     private String key;
 
-
-
-
-
     public String sendMsgToMQServer(String msg) {
 
         RocketMQProducer mqProducer = new RocketMQProducer(mqNameServer, producerMqGroupName, topic);
 
-
         mqProducer.init();
 
-        Message message = new Message(topic,tag,key,(msg).getBytes());// body
+        Message message = new Message(topic, tag, key, (msg).getBytes()); // body
 
         message.setBody((msg).getBytes());
 
-        mqProducer.send(message);  //发送消息
+        mqProducer.send(message); // 发送消息
 
         return msg;
     }
-
 }
-
-
-
-
-
-
-
-

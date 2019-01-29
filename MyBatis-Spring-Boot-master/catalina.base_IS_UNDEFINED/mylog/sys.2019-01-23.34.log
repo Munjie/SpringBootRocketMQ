@@ -1,0 +1,15 @@
+2019-01-23 17:51:43,693 INFO (StartupInfoLogger.java:59)- Started Application in 10.632 seconds (JVM running for 13.433)
+2019-01-23 17:51:43,700 INFO (Application.java:31)- 服务启动完成!
+2019-01-23 17:51:44,508 INFO (RocketMQConsumerCost.java:31)- 开始拉取MQ消息
+2019-01-23 17:51:48,393 INFO (RocketMQConsumer.java:61)- RocketMQConsumer Started! group=CONSUMER-MQ-GROUP-ONE instance=26a85479-3572-468f-a320-50320207cf35
+2019-01-23 17:52:03,255 INFO (RoleController.java:32)- {
+	"userName" : "23265656",
+	"userCname": "36565"
+	
+}
+2019-01-23 17:52:06,349 ERROR (RocketMQProducer.java:53)- 生产者发送消息异常:org.apache.rocketmq.client.exception.MQClientException: No route info of this topic, MQ-MSG-TOPICS-TEST
+See http://rocketmq.apache.org/docs/faq/ for further details.
+2019-01-23 17:52:06,351 INFO (AESUtil.java:32)- start encrypt...
+2019-01-23 17:52:06,813 INFO (AESUtil.java:88)- start buid secret key
+2019-01-23 17:52:06,824 INFO (AESUtil.java:100)- secretKey：[B@5856bea0
+2019-01-23 17:52:06,825 INFO (AESUtil.java:101)- build secret key completed, spend time:11

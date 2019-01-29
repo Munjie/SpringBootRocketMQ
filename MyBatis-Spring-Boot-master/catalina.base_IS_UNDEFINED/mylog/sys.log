@@ -1,18 +1,11 @@
-2019-01-23 10:47:41,561 INFO (RoleServiceImpl.java:32)- encrypt contente5KvBU4fHI3snhFmcfk89Sr6VYBFk5P63dDpCw1VhH0guW0B/tKvofD0KKsNo5GkJJnQGuBzDCcOtXxN57wlBQ==
-2019-01-23 10:47:41,578 INFO (AESUtil.java:60)- start decrypt...
-2019-01-23 10:47:41,578 INFO (AESUtil.java:88)- start buid secret key
-2019-01-23 10:47:41,579 INFO (AESUtil.java:99)- secretKey：[B@4f4e9223
-2019-01-23 10:47:41,579 INFO (AESUtil.java:71)- decrypt completed, spend time:1
-2019-01-23 10:47:41,580 INFO (RoleServiceImpl.java:34)- decrypt content{
-	"userName" : "23265656",
-	"userCname": "36565"
-	
-}
-2019-01-23 10:47:41,657 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
-2019-01-23 10:47:41,672 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
-2019-01-23 10:47:42,023 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
-2019-01-23 10:47:42,024 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
-2019-01-23 10:47:42,026 TRACE (BaseJdbcLogger.java:165)- <==        Row: 2, frfs
-2019-01-23 10:47:42,026 TRACE (BaseJdbcLogger.java:165)- <==        Row: 3, FDFS
-2019-01-23 10:47:42,027 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
-2019-01-23 10:47:42,033 INFO (RoleServiceImpl.java:53)- 返回json为：{"code":"0000","message":"success","list":[{"func":"dsd","funcId":"1"},{"func":"frfs","funcId":"2"},{"func":"FDFS","funcId":"3"}]}
+2019-01-29 10:37:15,818 INFO (StartupInfoLogger.java:59)- Started Application in 10.962 seconds (JVM running for 13.508)
+2019-01-29 10:37:15,854 INFO (Application.java:30)- 服务启动完成!
+2019-01-29 10:37:15,799 INFO (RocketMQConsumerCost.java:33)- start pull message from  rocketMQ broker server
+2019-01-29 10:37:18,753 INFO (RocketMQConsumer.java:61)- RocketMQConsumer Started! group=PRO-CONSUMER-MQ-GROUP-ONE instance=2d8c8d54-9bc7-49ee-8402-b504227843f8
+2019-01-29 10:37:25,325 INFO (IndexController.java:28)- welcome to home
+2019-01-29 10:37:25,365 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
+2019-01-29 10:37:25,383 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-29 10:37:25,398 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-29 10:37:25,399 TRACE (BaseJdbcLogger.java:165)- <==        Row: 101, 删除
+2019-01-29 10:37:25,402 TRACE (BaseJdbcLogger.java:165)- <==        Row: 102, 查询
+2019-01-29 10:37:25,402 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2

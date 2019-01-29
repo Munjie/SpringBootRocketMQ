@@ -1,0 +1,10 @@
+2019-01-29 10:29:45,065 INFO (RocketMQConsumer.java:61)- RocketMQConsumer Started! group=PRO-CONSUMER-MQ-GROUP-ONE instance=9ca79565-b3fa-4182-a8d3-03565d447741
+2019-01-29 10:29:50,924 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
+2019-01-29 10:29:50,940 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-29 10:29:50,957 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-29 10:29:50,957 TRACE (BaseJdbcLogger.java:165)- <==        Row: 101, 删除
+2019-01-29 10:29:50,959 TRACE (BaseJdbcLogger.java:165)- <==        Row: 102, 查询
+2019-01-29 10:29:50,960 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-01-29 10:34:37,353 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 267120 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-29 10:34:37,354 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-29 10:34:37,356 INFO (SpringApplication.java:663)- The following profiles are active: pro

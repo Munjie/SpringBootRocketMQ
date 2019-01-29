@@ -1,0 +1,16 @@
+2019-01-25 09:51:56,876 INFO (RoleServiceImpl.java:32)- encrypt contente5KvBU4fHI3snhFmcfk89ZbM95rEStrAKFhlzpvCzQQ4edit6x0saq3c6MuDCgSoCLyUZtPVMUBvmCTyRPCwhw==
+2019-01-25 09:51:56,882 INFO (AESUtil.java:60)- start decrypt...
+2019-01-25 09:51:56,882 INFO (AESUtil.java:88)- start buid secret key
+2019-01-25 09:51:56,883 INFO (AESUtil.java:100)- secretKey：[B@4b1c2f7a
+2019-01-25 09:51:56,883 INFO (AESUtil.java:101)- build secret key completed, spend time:0
+2019-01-25 09:51:56,884 INFO (AESUtil.java:71)- decrypt completed, spend time:2
+2019-01-25 09:51:56,885 INFO (RoleServiceImpl.java:34)- decrypt content{
+	"userName" : "025888",
+	"userCname": "63323222"
+	
+}
+2019-01-25 09:51:56,900 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
+2019-01-25 09:51:56,901 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-25 09:51:56,914 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-25 09:51:56,914 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-25 09:51:56,915 TRACE (BaseJdbcLogger.java:165)- <==        Row: 2, frfs

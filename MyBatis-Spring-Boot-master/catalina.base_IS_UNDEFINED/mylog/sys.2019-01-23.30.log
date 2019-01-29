@@ -1,0 +1,15 @@
+2019-01-23 17:15:21,660 INFO (RoleController.java:32)- {
+	"userName" : "23265656",
+	"userCname": "36565"
+	
+}
+2019-01-23 17:15:25,057 ERROR (RocketMQProducer.java:53)- 生产者发送消息异常:org.apache.rocketmq.client.exception.MQClientException: No route info of this topic, MQ-MSG-TOPICS-TEST
+See http://rocketmq.apache.org/docs/faq/ for further details.
+2019-01-23 17:15:25,058 INFO (AESUtil.java:32)- start encrypt...
+2019-01-23 17:15:25,058 INFO (AESUtil.java:88)- start buid secret key
+2019-01-23 17:15:25,059 INFO (AESUtil.java:100)- secretKey：[B@41bcecfb
+2019-01-23 17:15:25,059 INFO (AESUtil.java:101)- build secret key completed, spend time:0
+2019-01-23 17:15:25,060 INFO (AESUtil.java:42)- encrypt completed, spend time:2
+2019-01-23 17:15:25,075 INFO (RoleServiceImpl.java:32)- encrypt contente5KvBU4fHI3snhFmcfk89Sr6VYBFk5P63dDpCw1VhH0guW0B/tKvofD0KKsNo5GkJJnQGuBzDCcOtXxN57wlBQ==
+2019-01-23 17:15:25,075 INFO (AESUtil.java:60)- start decrypt...
+2019-01-23 17:15:25,075 INFO (AESUtil.java:88)- start buid secret key

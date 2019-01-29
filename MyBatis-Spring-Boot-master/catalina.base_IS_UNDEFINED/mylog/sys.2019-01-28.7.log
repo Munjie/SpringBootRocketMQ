@@ -1,0 +1,16 @@
+2019-01-28 17:23:52,398 INFO (RoleController.java:32)- {
+	"userName" : "9999",
+	"userCname": "888"
+	
+}
+2019-01-28 17:24:06,818 INFO (RocketMQProducer.java:51)- messageId=C0A81268DDF018B4AAC28EC79DA60000, status=SEND_OK
+2019-01-28 17:24:13,061 INFO (AESUtil.java:32)- start encrypt...
+2019-01-28 17:24:13,064 INFO (AESUtil.java:88)- start buid secret key
+2019-01-28 17:24:13,069 INFO (AESUtil.java:100)- secretKey：[B@72bc1a56
+2019-01-28 17:24:13,070 INFO (AESUtil.java:101)- build secret key completed, spend time:5
+2019-01-28 17:24:13,072 INFO (AESUtil.java:42)- encrypt completed, spend time:8
+2019-01-28 17:24:13,852 INFO (RoleServiceImpl.java:32)- encrypt contente5KvBU4fHI3snhFmcfk89Tw8PXojs3xWNmZgekbZcEGVArtLSw0vvwFWuoFnSz7i
+2019-01-28 17:24:14,109 INFO (AESUtil.java:60)- start decrypt...
+2019-01-28 17:24:14,111 INFO (AESUtil.java:88)- start buid secret key
+2019-01-28 17:24:14,112 INFO (AESUtil.java:100)- secretKey：[B@361537cd
+2019-01-28 17:24:14,113 INFO (AESUtil.java:101)- build secret key completed, spend time:1

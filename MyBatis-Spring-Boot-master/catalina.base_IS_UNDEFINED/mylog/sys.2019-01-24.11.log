@@ -1,0 +1,12 @@
+2019-01-24 12:52:13,457 INFO (RocketMQListener.java:22)- %s Receive New Messages: %s %n
+2019-01-24 12:51:52,869 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-24 12:52:13,515 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "025888",
+	"userCname": "63323222"
+	
+}
+2019-01-24 12:52:13,520 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-24 12:52:13,520 TRACE (BaseJdbcLogger.java:165)- <==        Row: 2, frfs
+2019-01-24 12:52:13,531 TRACE (BaseJdbcLogger.java:165)- <==        Row: 3, FDFS
+2019-01-24 12:52:13,532 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2019-01-24 12:52:13,533 INFO (RoleServiceImpl.java:53)- 返回json为：{"code":"0000","message":"success","list":[{"func":"dsd","funcId":"1"},{"func":"frfs","funcId":"2"},{"func":"FDFS","funcId":"3"}]}

@@ -1,0 +1,19 @@
+2019-01-28 17:24:14,114 INFO (AESUtil.java:71)- decrypt completed, spend time:4
+2019-01-28 17:24:14,353 INFO (RoleServiceImpl.java:34)- decrypt content{
+	"userName" : "9999",
+	"userCname": "888"
+	
+}
+2019-01-28 17:24:14,845 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
+2019-01-28 17:24:15,083 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-28 17:24:15,249 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-28 17:24:15,261 TRACE (BaseJdbcLogger.java:165)- <==        Row: 101, 删除
+2019-01-28 17:24:15,265 TRACE (BaseJdbcLogger.java:165)- <==        Row: 102, 查询
+2019-01-28 17:24:15,266 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-01-28 17:24:27,324 INFO (RoleServiceImpl.java:53)- 返回json为：{"code":"0000","message":"success","list":[{"func":"删除","funcId":"101"},{"func":"查询","funcId":"102"}]}
+2019-01-28 17:25:19,415 INFO (RocketMQListener.java:22)- %s Receive New Messages: %s %n
+2019-01-28 17:25:21,619 INFO (RocketMQListener.java:24)- msg data from rocketMQ:{
+	"userName" : "9999",
+	"userCname": "888"
+	
+}

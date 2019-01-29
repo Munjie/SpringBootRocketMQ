@@ -1,0 +1,19 @@
+2019-01-25 09:56:36,073 INFO (AESUtil.java:100)- secretKey：[B@1250fc1a
+2019-01-25 09:56:36,078 INFO (AESUtil.java:101)- build secret key completed, spend time:5
+2019-01-25 09:56:36,079 INFO (AESUtil.java:71)- decrypt completed, spend time:7
+2019-01-25 09:56:36,086 INFO (RoleServiceImpl.java:34)- decrypt content{
+	"userName" : "025888",
+	"userCname": "63323222"
+	
+}
+2019-01-25 09:56:36,093 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
+2019-01-25 09:56:36,093 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-25 09:56:36,106 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-25 09:56:36,106 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-25 09:56:36,107 TRACE (BaseJdbcLogger.java:165)- <==        Row: 2, frfs
+2019-01-25 09:56:36,111 TRACE (BaseJdbcLogger.java:165)- <==        Row: 3, FDFS
+2019-01-25 09:56:36,111 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2019-01-25 09:56:36,112 INFO (RoleServiceImpl.java:53)- 返回json为：{"code":"0000","message":"success","list":[{"func":"dsd","funcId":"1"},{"func":"frfs","funcId":"2"},{"func":"FDFS","funcId":"3"}]}
+2019-01-25 10:33:32,451 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 213232 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-25 10:33:32,452 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-25 10:33:32,454 INFO (SpringApplication.java:663)- The following profiles are active: dev

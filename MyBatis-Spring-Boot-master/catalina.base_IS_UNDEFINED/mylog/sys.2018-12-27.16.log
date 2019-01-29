@@ -1,9 +1,0 @@
-2018-12-27 16:43:26,269 ERROR (GlobalExceptionHandler.java:48)- {msg=Required Integer parameter 'role' is not present, code=100, url=http://localhost:9090/role/logtest}
-2018-12-27 16:43:27,083 ERROR (GlobalExceptionHandler.java:48)- {msg=Required Integer parameter 'role' is not present, code=100, url=http://localhost:9090/role/logtest}
-2018-12-27 16:43:39,226 INFO (RoleController.java:51)- 访问了controller
-2018-12-27 16:43:41,464 ERROR (GlobalExceptionHandler.java:67)- {msg=异常, code=999, url=http://localhost:9090/role/logtest}
-2018-12-27 16:45:08,860 INFO (RoleController.java:51)- 访问了controller
-2018-12-27 16:45:08,876 ERROR (GlobalExceptionHandler.java:67)- {msg=异常, code=999, url=http://localhost:9090/role/logtest}
-2018-12-27 16:45:16,079 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 202664 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
-2018-12-27 16:45:16,080 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
-2018-12-27 16:45:16,081 INFO (SpringApplication.java:663)- The following profiles are active: dev

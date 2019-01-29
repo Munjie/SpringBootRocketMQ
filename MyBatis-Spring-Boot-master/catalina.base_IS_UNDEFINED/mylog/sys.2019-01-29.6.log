@@ -1,0 +1,16 @@
+2019-01-29 10:01:42,136 INFO (AESUtil.java:71)- decrypt completed, spend time:1
+2019-01-29 10:01:42,142 INFO (RoleServiceImpl.java:34)- decrypt content{
+	"userName" : "9999",
+	"userCname": "888"
+	
+}
+2019-01-29 10:01:42,201 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
+2019-01-29 10:01:42,228 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-29 10:01:42,248 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-29 10:01:42,248 TRACE (BaseJdbcLogger.java:165)- <==        Row: 101, 删除
+2019-01-29 10:01:42,251 TRACE (BaseJdbcLogger.java:165)- <==        Row: 102, 查询
+2019-01-29 10:01:42,251 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-01-29 10:01:42,266 INFO (RoleServiceImpl.java:53)- 返回json为：{"code":"0000","message":"success","list":[{"func":"删除","funcId":"101"},{"func":"查询","funcId":"102"}]}
+2019-01-29 10:21:26,126 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 267940 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-29 10:21:26,127 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-29 10:21:26,128 INFO (SpringApplication.java:663)- The following profiles are active: pro

@@ -1,0 +1,17 @@
+2019-01-25 09:38:19,463 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
+2019-01-25 09:38:19,482 TRACE (BaseJdbcLogger.java:165)- <==        Row: 2, frfs
+2019-01-25 09:38:19,482 TRACE (BaseJdbcLogger.java:165)- <==        Row: 3, FDFS
+2019-01-25 09:38:19,483 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2019-01-25 09:38:19,490 INFO (RoleServiceImpl.java:53)- 返回json为：{"code":"0000","message":"success","list":[{"func":"dsd","funcId":"1"},{"func":"frfs","funcId":"2"},{"func":"FDFS","funcId":"3"}]}
+2019-01-25 09:51:56,478 INFO (RoleController.java:32)- {
+	"userName" : "025888",
+	"userCname": "63323222"
+	
+}
+2019-01-25 09:51:56,873 ERROR (RocketMQProducer.java:53)- producer send message exception:org.apache.rocketmq.client.exception.MQClientException: No route info of this topic, MQ-MSG-TOPICS-TEST
+See http://rocketmq.apache.org/docs/faq/ for further details.
+2019-01-25 09:51:56,874 INFO (AESUtil.java:32)- start encrypt...
+2019-01-25 09:51:56,875 INFO (AESUtil.java:88)- start buid secret key
+2019-01-25 09:51:56,876 INFO (AESUtil.java:100)- secretKey：[B@41bcecfb
+2019-01-25 09:51:56,876 INFO (AESUtil.java:101)- build secret key completed, spend time:1
+2019-01-25 09:51:56,876 INFO (AESUtil.java:42)- encrypt completed, spend time:1

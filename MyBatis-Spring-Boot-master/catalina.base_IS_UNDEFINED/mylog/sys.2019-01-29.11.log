@@ -1,0 +1,13 @@
+2019-01-29 10:34:47,763 INFO (StartupInfoLogger.java:59)- Started Application in 11.6 seconds (JVM running for 14.547)
+2019-01-29 10:34:47,772 INFO (Application.java:30)- 服务启动完成!
+2019-01-29 10:34:48,143 INFO (RocketMQConsumerCost.java:33)- start pull message from  rocketMQ broker server
+2019-01-29 10:34:50,450 INFO (RocketMQConsumer.java:61)- RocketMQConsumer Started! group=PRO-CONSUMER-MQ-GROUP-ONE instance=c384ca58-48e9-469e-b6e4-74087889912a
+2019-01-29 10:35:23,973 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select funcid, func from func 
+2019-01-29 10:35:23,989 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-29 10:35:24,016 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
+2019-01-29 10:35:24,016 TRACE (BaseJdbcLogger.java:165)- <==        Row: 101, 删除
+2019-01-29 10:35:24,018 TRACE (BaseJdbcLogger.java:165)- <==        Row: 102, 查询
+2019-01-29 10:35:24,019 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-01-29 10:37:05,680 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 221056 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-29 10:37:05,681 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-29 10:37:05,682 INFO (SpringApplication.java:663)- The following profiles are active: pro

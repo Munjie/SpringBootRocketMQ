@@ -1,0 +1,15 @@
+2019-01-28 17:06:49,287 INFO (RocketMQConsumer.java:61)- RocketMQConsumer Started! group=CONSUMER-MQ-GROUP-ONE instance=a76ebd71-433a-480a-bb1a-8649dc0efa9e
+2019-01-28 17:06:52,064 INFO (RoleController.java:32)- {
+	"userName" : "9999",
+	"userCname": "888"
+	
+}
+2019-01-28 17:07:06,621 INFO (RocketMQProducer.java:51)- messageId=C0A81268E13418B4AAC28EB80C7D0000, status=SEND_OK
+2019-01-28 17:07:06,622 INFO (AESUtil.java:32)- start encrypt...
+2019-01-28 17:07:06,623 INFO (AESUtil.java:88)- start buid secret key
+2019-01-28 17:07:06,625 INFO (AESUtil.java:100)- secretKey：[B@1bd4d899
+2019-01-28 17:07:06,627 INFO (AESUtil.java:101)- build secret key completed, spend time:3
+2019-01-28 17:07:06,627 INFO (AESUtil.java:42)- encrypt completed, spend time:4
+2019-01-28 17:07:09,612 INFO (RoleServiceImpl.java:32)- encrypt contente5KvBU4fHI3snhFmcfk89Tw8PXojs3xWNmZgekbZcEGVArtLSw0vvwFWuoFnSz7i
+2019-01-28 17:07:10,573 INFO (AESUtil.java:60)- start decrypt...
+2019-01-28 17:07:10,575 INFO (AESUtil.java:88)- start buid secret key

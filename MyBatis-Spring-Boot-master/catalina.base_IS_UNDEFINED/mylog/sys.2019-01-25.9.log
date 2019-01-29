@@ -1,0 +1,14 @@
+2019-01-25 10:33:42,128 INFO (StartupInfoLogger.java:59)- Started Application in 11.197 seconds (JVM running for 13.173)
+2019-01-25 10:33:42,135 INFO (Application.java:31)- 服务启动完成!
+2019-01-25 10:33:42,577 INFO (RocketMQConsumerCost.java:33)- start pull message from  rocketMQ broker server
+2019-01-25 10:33:48,048 INFO (RocketMQConsumer.java:61)- RocketMQConsumer Started! group=CONSUMER-MQ-GROUP-ONE instance=ddc6df97-2ef3-4c50-84d1-8009447f45a3
+2019-01-25 10:33:55,129 INFO (RoleController.java:32)- {
+	"userName" : "025888",
+	"userCname": "63323222"
+	
+}
+2019-01-25 10:34:06,928 ERROR (RocketMQProducer.java:53)- producer send message exception:org.apache.rocketmq.remoting.exception.RemotingTooMuchRequestException: sendDefaultImpl call timeout
+2019-01-25 10:34:06,929 INFO (AESUtil.java:32)- start encrypt...
+2019-01-25 10:34:07,178 INFO (AESUtil.java:88)- start buid secret key
+2019-01-25 10:34:07,189 INFO (AESUtil.java:100)- secretKey：[B@3985b164
+2019-01-25 10:34:07,189 INFO (AESUtil.java:101)- build secret key completed, spend time:11

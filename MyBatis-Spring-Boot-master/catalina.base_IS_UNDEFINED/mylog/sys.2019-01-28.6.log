@@ -1,0 +1,8 @@
+2019-01-28 17:07:31,811 INFO (RoleServiceImpl.java:53)- 返回json为：{"code":"0000","message":"success","list":[{"func":"删除","funcId":"101"},{"func":"查询","funcId":"102"}]}
+2019-01-28 17:23:15,163 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 253424 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-28 17:23:15,164 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-28 17:23:15,165 INFO (SpringApplication.java:663)- The following profiles are active: pro
+2019-01-28 17:23:23,617 INFO (StartupInfoLogger.java:59)- Started Application in 9.044 seconds (JVM running for 17.018)
+2019-01-28 17:23:23,620 INFO (Application.java:31)- 服务启动完成!
+2019-01-28 17:23:24,074 INFO (RocketMQConsumerCost.java:33)- start pull message from  rocketMQ broker server
+2019-01-28 17:23:25,902 INFO (RocketMQConsumer.java:61)- RocketMQConsumer Started! group=PRO-CONSUMER-MQ-GROUP-ONE instance=76d469bb-4b40-4f61-87b9-fb5d453c4fa7

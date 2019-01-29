@@ -1,0 +1,16 @@
+2019-01-25 10:41:24,978 TRACE (BaseJdbcLogger.java:165)- <==        Row: 2, frfs
+2019-01-25 10:41:24,982 TRACE (BaseJdbcLogger.java:165)- <==        Row: 3, FDFS
+2019-01-25 10:41:24,982 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2019-01-25 10:41:24,983 INFO (RoleServiceImpl.java:53)- 返回json为：{"code":"0000","message":"success","list":[{"func":"dsd","funcId":"1"},{"func":"frfs","funcId":"2"},{"func":"FDFS","funcId":"3"}]}
+2019-01-25 10:41:29,259 INFO (RoleController.java:32)- {
+	"userName" : "025888",
+	"userCname": "63323222"
+	
+}
+2019-01-25 10:41:41,903 INFO (RocketMQProducer.java:51)- messageId=C0A8126840F018B4AAC27DE41DA70002, status=SEND_OK
+2019-01-25 10:41:47,132 INFO (AESUtil.java:32)- start encrypt...
+2019-01-25 10:41:47,134 INFO (AESUtil.java:88)- start buid secret key
+2019-01-25 10:41:47,134 INFO (AESUtil.java:100)- secretKey：[B@6e049dc2
+2019-01-25 10:41:47,134 INFO (AESUtil.java:101)- build secret key completed, spend time:0
+2019-01-25 10:41:47,135 INFO (AESUtil.java:42)- encrypt completed, spend time:2
+2019-01-25 10:41:47,135 INFO (RoleServiceImpl.java:32)- encrypt contente5KvBU4fHI3snhFmcfk89ZbM95rEStrAKFhlzpvCzQQ4edit6x0saq3c6MuDCgSoCLyUZtPVMUBvmCTyRPCwhw==

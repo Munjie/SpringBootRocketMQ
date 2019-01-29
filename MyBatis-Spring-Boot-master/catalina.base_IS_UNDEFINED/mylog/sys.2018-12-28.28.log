@@ -1,4 +1,0 @@
-2018-12-28 16:49:03,006 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
-2018-12-28 16:49:03,014 TRACE (BaseJdbcLogger.java:165)- <==    Columns: funcid, func
-2018-12-28 16:49:03,014 TRACE (BaseJdbcLogger.java:165)- <==        Row: 1, dsd
-2018-12-28 16:49:03,016 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

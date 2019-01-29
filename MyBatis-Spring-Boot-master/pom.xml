@@ -53,6 +53,13 @@
             <optional>true</optional>
         </dependency>
 
+        <!-- 导入Spring Boot的thymeleaf依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
+
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -88,7 +95,7 @@
             <version>${mapper.starter.version}</version>
         </dependency>
         <!--pagehelper-->
-        <dependency>
+      <dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper-spring-boot-starter</artifactId>
             <version>${pagehelper.starter.version}</version>

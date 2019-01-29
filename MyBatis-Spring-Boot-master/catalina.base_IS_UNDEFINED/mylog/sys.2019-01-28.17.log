@@ -1,0 +1,10 @@
+2019-01-28 18:17:33,630 INFO (StartupInfoLogger.java:59)- Started Application in 10.925 seconds (JVM running for 15.626)
+2019-01-28 18:17:33,638 INFO (Application.java:31)- 服务启动完成!
+2019-01-28 18:17:33,741 INFO (RocketMQConsumerCost.java:33)- start pull message from  rocketMQ broker server
+2019-01-28 18:17:36,824 INFO (RocketMQConsumer.java:61)- RocketMQConsumer Started! group=PRO-CONSUMER-MQ-GROUP-ONE instance=a992ebae-a615-4bb0-852d-b3ae3a5ae9dc
+2019-01-28 18:24:15,736 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 231708 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-28 18:24:15,737 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-28 18:24:15,739 INFO (SpringApplication.java:663)- The following profiles are active: pro
+2019-01-28 18:24:25,304 INFO (StartupInfoLogger.java:59)- Started Application in 11.34 seconds (JVM running for 12.939)
+2019-01-28 18:24:25,307 INFO (Application.java:31)- 服务启动完成!
+2019-01-28 18:24:25,833 INFO (RocketMQConsumerCost.java:33)- start pull message from  rocketMQ broker server

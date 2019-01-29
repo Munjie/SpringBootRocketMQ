@@ -1,0 +1,7 @@
+2019-01-28 09:35:00,163 INFO (RoleServiceImpl.java:53)- 返回json为：{"code":"0000","message":"success","list":[{"func":"dsd","funcId":"1"},{"func":"frfs","funcId":"2"},{"func":"FDFS","funcId":"3"}]}
+2019-01-28 17:06:37,627 INFO (StartupInfoLogger.java:50)- Starting Application on DESKTOP-2PRE44Q with PID 254260 (C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master\target\classes started by admin in C:\Users\admin\Downloads\MyBatis-Spring-Boot-master\MyBatis-Spring-Boot-master)
+2019-01-28 17:06:37,629 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-01-28 17:06:37,630 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2019-01-28 17:06:46,354 INFO (StartupInfoLogger.java:59)- Started Application in 10.063 seconds (JVM running for 12.627)
+2019-01-28 17:06:46,358 INFO (Application.java:31)- 服务启动完成!
+2019-01-28 17:06:47,030 INFO (RocketMQConsumerCost.java:33)- start pull message from  rocketMQ broker server
